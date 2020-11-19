@@ -1,0 +1,125 @@
+  /*-------------------------------------------media queries------------------------------------------------*/
+  @media only screen and (max-width: 1199px) {
+    
+    #page-wrapper{margin:0 0;}
+   
+    #content h1 {font-size: 2.7rem;}
+    #content h2 {font-size:1.8rem;}
+    #content h3,#contact-me h3 {font-size:1.5rem;}
+    
+    header nav ul li {
+        padding:0px 20px;
+    }
+
+   a.client img {
+       left:80%;
+   }
+
+}
+
+@media only screen and (max-width: 1010px) {.skill-photo{display: none;}}
+@media only screen and (max-width: 991px) {
+
+    #page-wrapper{margin:0 0;}
+    #page-wrapper section h1#heading, h1.heading {font-size: 35px;}
+    #content h1 {font-size: 2.3rem;}
+    #content h2 {font-size:1.5rem;}
+    #content h3{font-size:1.3rem;}
+
+    
+    header nav ul li {
+        padding:0px 15px;
+    }
+
+       /*---carousel---*/
+      section #projectCarousel{
+           width: 95%;
+        margin:0 0 ;}
+
+
+    #about-content p {
+        font-size: 20px;
+        word-spacing: 3px;
+    }
+    #about-content img {
+        width:100px;
+        margin-bottom:0px ;
+    }
+
+    a.client img { 
+        width: 85px;
+        
+    }
+
+    .skill {
+        width:90vw;
+        margin: 0;
+        
+    }
+    .skill h3{font-size: 27px;}
+    .skill p{font-size: 17px;}
+    
+}
+@media only screen and (max-width: 768px) {
+
+    #page-wrapper{margin:0 0;}
+    
+    div#background{ height:100vh;}
+
+    #illustration{display: none; }
+
+    #know-me { display:block;}
+
+    #page-wrapper main {display :block;}
+    #content {
+        text-align: center;
+    }
+             
+    header nav ul li {
+        padding:0px 12px;
+    }
+
+    /*-----carousel---*/
+    .content{display: none;}
+
+    #projectCarousel #img-1,#img-2,#img-3{
+       
+        display:block;
+        left:0;
+        
+        margin: 0 auto;
+
+    }
+
+    a.client img {
+        top:10px;
+    }
+
+
+    
+} 
+@media only screen and (max-width: 575px) {
+
+    #page-wrapper{margin:0 0;}
+
+    div#background{ height:100vh;}
+   
+    
+    header nav ul li {
+        padding:0px 10px;
+    }
+
+    /*---carousel---*/
+    #bg-1,#bg-2,#bg-3{display: none;}
+    #projectCarousel #img-1,#img-2,#img-3{
+        width:230px;
+        top:35px;
+    }
+
+    #about-content{width: 80vw;}
+    #about-content img {width:85px;}
+
+    a.client img{display:none;}
+
+    
+}
