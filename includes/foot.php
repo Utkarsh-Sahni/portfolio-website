@@ -4,10 +4,10 @@
           <div id="foot-nav">
 
             <ul>
-                <li><a href="about.php">About</a></li>
-                <li><a href="contact.php">Send a Message</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Send a Message</a></li>
                 <li><a href="#"> Give Feedbacks</a></li>
-                <li><a href="skills.php">Why Me?</a></li>
+                <li><a href="skills.html">Why Me?</a></li>
             </ul>
 
           </div>
