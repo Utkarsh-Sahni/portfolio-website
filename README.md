@@ -1,10 +1,9 @@
-#portfolio-website
- To access the live project visit :
- https://utkarsh-sahni.github.io/portfolio-website/
-
 # Portfolio Website
 
 This project is a demo portfolio website showcasing one's skills, projects, and providing information about them. It is built using HTML, CSS, and JavaScript, with an added GIF to enhance the visual experience.
+To access the live project visit : 
+https://utkarsh-sahni.github.io/portfolio-website/
+
 
 ## Table of Contents
 
